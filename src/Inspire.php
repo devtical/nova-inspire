@@ -25,7 +25,7 @@ class Inspire extends Card
 
     public function options($options = [])
     {
-        $defaultOptions = ['style' => 'default'];
+        $defaultOptions = ['style' => 'default', 'topic' => null];
         $metaOptions    = array_merge($defaultOptions, $options);
 
         return $this->withMeta($metaOptions);

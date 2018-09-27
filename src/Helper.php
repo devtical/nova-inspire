@@ -1,18 +1,30 @@
 <?php
 
-function randomInspire()
+function randomInspire($topic = null)
 {
     $json = file_get_contents(__DIR__ . '/../resources/quotes/data.json');
-    $data = collect(json_decode($json, true))
-        ->map(function ($item) {
-            // Dev note : You need to clear inspire cache
-            return \Cache::rememberForever('inspire.quote.' . md5($item['quote']), function () use ($item) {
-                $item['image'] = 'data:image/jpg;base64,' . base64_encode(file_get_contents($item['image']));
+
+    if ($topic) {
+        $data          = json_decode($json, true)[$topic];
+        $data['topic'] = $topic;
+    } else {
+        $data = collect(json_decode($json, true))
+            ->map(function ($item, $topic) {
+                $item['topic'] = $topic;
 
                 return $item;
-            });
-        })
-        ->random();
+            })
+            ->random();
+    }
 
-    return response()->json($data);
+    $data = array_merge([
+        'topic' => $data['topic'],
+        'image' => 'data:image/jpg;base64,' . base64_encode(file_get_contents($data['image'])),
+    ], collect($data['quotes'])->random());
+
+    $key = md5(serialize($data));
+
+    return \Cache::remember('inspire.item.' . $key, 1440, function () use ($data) {
+        return response()->json($data);
+    });
 }
