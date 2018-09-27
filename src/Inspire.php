@@ -22,4 +22,12 @@ class Inspire extends Card
     {
         return 'inspire';
     }
+
+    public function options($options = [])
+    {
+        $defaultOptions = ['style' => 'default'];
+        $metaOptions    = array_merge($defaultOptions, $options);
+
+        return $this->withMeta($metaOptions);
+    }
 }
