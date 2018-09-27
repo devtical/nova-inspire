@@ -1,0 +1,30 @@
+{
+    "name": "kristories/nova-inspire",
+    "description": "The best way to connect with your customers is by reaching out and inspiring them",
+    "keywords": [
+        "laravel",
+        "nova",
+        "card"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kristories\\Inspire\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kristories\\Inspire\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
