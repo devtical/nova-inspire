@@ -4,9 +4,8 @@
         <div v-if="data" id="inspire-stacked">
             <div class="w-full rounded overflow-hidden shadow-lg">
                 <div :style="{backgroundImage: 'url(\'' + data.image + '\')'}" class="image">
-                    <span class="image-copyright" v-if="data.image_copyright">
-                        Image &copy;
-                        {{ data.image_copyright }}
+                    <span class="image-copyright">
+                        Image by <a href="https://unsplash.com" target="_blank">Unsplash</a>
                     </span>
                 </div>
                 <div class="px-6 py-4">
@@ -24,9 +23,8 @@
         <div v-if="data" id="inspire-horizontal">
             <div class="w-full flex rounded overflow-hidden shadow-lg">
                 <div class="w-1/3 image" :style="{backgroundImage: 'url(\'' + data.image + '\')'}">
-                    <span class="image-copyright" v-if="data.image_copyright">
-                        Image &copy;
-                        {{ data.image_copyright }}
+                    <span class="image-copyright">
+                        Image by <a href="https://unsplash.com" target="_blank">Unsplash</a>
                     </span>
                 </div>
                 <div class="bg-white p-4 flex flex-col justify-between leading-normal">
@@ -50,9 +48,8 @@
                     <footer>{{ data.author }}</footer>
                 </blockquote>
 
-                <span class="image-copyright" v-if="data.image_copyright">
-                    Image &copy;
-                    {{ data.image_copyright }}
+                <span class="image-copyright">
+                    Image by <a href="https://unsplash.com" target="_blank">Unsplash</a>
                 </span>
             </div>
         </div>
@@ -69,7 +66,7 @@
             };
         },
         mounted () {
-            Nova.request().get('/nova-vendor/inspire/random')
+            Nova.request().get('/nova-vendor/inspire/random/' + this.card.topic)
                 .then(response => {
                     this.data = response.data
                     this.style = this.card.style
