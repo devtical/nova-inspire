@@ -9,6 +9,8 @@ use Illuminate\Support\ServiceProvider;
 
 class CardServiceProvider extends ServiceProvider
 {
+    protected $namespace = 'Kristories\Inspire\Http\Controllers';
+
     /**
      * Bootstrap any application services.
      *
@@ -21,8 +23,8 @@ class CardServiceProvider extends ServiceProvider
         });
 
         Nova::serving(function (ServingNova $event) {
-            Nova::script('inspire', __DIR__.'/../dist/js/card.js');
-            Nova::style('inspire', __DIR__.'/../dist/css/card.css');
+            Nova::script('inspire', __DIR__ . '/../dist/js/card.js');
+            Nova::style('inspire', __DIR__ . '/../dist/css/card.css');
         });
     }
 
@@ -38,8 +40,9 @@ class CardServiceProvider extends ServiceProvider
         }
 
         Route::middleware(['nova'])
-                ->prefix('nova-vendor/inspire')
-                ->group(__DIR__.'/../routes/api.php');
+            ->namespace($this->namespace)
+            ->prefix('nova-vendor/inspire')
+            ->group(__DIR__ . '/../routes/api.php');
     }
 
     /**
