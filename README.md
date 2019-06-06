@@ -32,8 +32,9 @@ public function cards()
     return [
         // ...
         (new Inspire())->options([
-            'topic' => 'peace',   // null, motivational, learning, etc
-            'style' => 'stacked', // default, stacked, horizontal
+            'topic'   => 'peace',   // null, motivational, learning, etc
+            'style'   => 'stacked', // default, stacked, horizontal,
+            'refresh' => true       // true, false
         ]),
     ];
 }
