@@ -52,6 +52,8 @@ class CardServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/quotes.php', 'quotes'
+        );
     }
 }
