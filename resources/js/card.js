@@ -1,4 +1,5 @@
-Nova.booting((Vue, router) => {
-	Vue.config.devtools = true;
-    Vue.component('inspire', require('./components/Card'));
+import Card from './components/Card'
+
+Nova.booting((app, store) => {
+  app.component('Inspire', Card)
 })
