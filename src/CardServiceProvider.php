@@ -1,16 +1,14 @@
 <?php
 
-namespace Kristories\Inspire;
+namespace Devtical\Inspire;
 
-use Laravel\Nova\Nova;
-use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
+use Laravel\Nova\Events\ServingNova;
+use Laravel\Nova\Nova;
 
 class CardServiceProvider extends ServiceProvider
 {
-    protected $namespace = 'Kristories\Inspire\Http\Controllers';
-
     /**
      * Bootstrap any application services.
      *
@@ -23,8 +21,8 @@ class CardServiceProvider extends ServiceProvider
         });
 
         Nova::serving(function (ServingNova $event) {
-            Nova::script('inspire', __DIR__ . '/../dist/js/card.js');
-            Nova::style('inspire', __DIR__ . '/../dist/css/card.css');
+            Nova::script('inspire', __DIR__.'/../dist/js/card.js');
+            Nova::style('inspire', __DIR__.'/../dist/css/card.css');
         });
     }
 
@@ -40,9 +38,8 @@ class CardServiceProvider extends ServiceProvider
         }
 
         Route::middleware(['nova'])
-            ->namespace($this->namespace)
-            ->prefix('nova-vendor/inspire')
-            ->group(__DIR__ . '/../routes/api.php');
+                ->prefix('nova-vendor/inspire')
+                ->group(__DIR__.'/../routes/api.php');
     }
 
     /**
@@ -53,7 +50,8 @@ class CardServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/quotes.php', 'quotes'
+            __DIR__ . '/../config/quotes.php',
+            'quotes'
         );
     }
 }

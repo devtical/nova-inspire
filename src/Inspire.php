@@ -1,6 +1,6 @@
 <?php
 
-namespace Kristories\Inspire;
+namespace Devtical\Inspire;
 
 use Laravel\Nova\Card;
 
@@ -13,6 +13,14 @@ class Inspire extends Card
      */
     public $width = 'full';
 
+    public function options($options = [])
+    {
+        $defaultOptions = ['style' => 'default', 'topic' => null];
+        $metaOptions = array_merge($defaultOptions, $options);
+
+        return $this->withMeta($metaOptions);
+    }
+
     /**
      * Get the component name for the element.
      *
@@ -21,13 +29,5 @@ class Inspire extends Card
     public function component()
     {
         return 'inspire';
-    }
-
-    public function options($options = [])
-    {
-        $defaultOptions = ['style' => 'default', 'topic' => null, 'refresh' => true];
-        $metaOptions    = array_merge($defaultOptions, $options);
-
-        return $this->withMeta($metaOptions);
     }
 }
