@@ -1,5 +1,5 @@
 {
-    "name": "kristories/nova-inspire",
+    "name": "devtical/nova-inspire",
     "description": "The best way to connect with your customers is by reaching out and inspiring them",
     "keywords": [
         "laravel",
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Kristories\\Inspire\\": "src/"
+            "Devtical\\Inspire\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kristories\\Inspire\\CardServiceProvider"
+                "Devtical\\Inspire\\CardServiceProvider"
             ]
         }
     },
@@ -37,5 +37,11 @@
         "format": "vendor/bin/php-cs-fixer fix --config=.php_cs.dist.php --allow-risky=yes"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ]
 }

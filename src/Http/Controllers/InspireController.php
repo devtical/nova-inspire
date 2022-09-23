@@ -1,6 +1,6 @@
 <?php
 
-namespace Kristories\Inspire\Http\Controllers;
+namespace Devtical\Inspire\Http\Controllers;
 
 use Illuminate\Support\Arr;
 
@@ -17,8 +17,8 @@ class InspireController
         }
 
         $data['image'] = config('quotes.' . $data['topic'] . '.image');
-        $data          = array_merge($data, Arr::random(config('quotes.' . $data['topic'] . '.quotes')));
-        $key           = md5(serialize($data));
+        $data = array_merge($data, Arr::random(config('quotes.' . $data['topic'] . '.quotes')));
+        $key = md5(serialize($data));
 
         return \Cache::remember('inspire.item.' . $key, 1440, function () use ($data) {
             return response()->json($data);
