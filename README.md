@@ -6,7 +6,7 @@
 >
 > ~ Me
 
-## Installation 
+## Installation
 
 You can install the package in to a [Laravel](http://laravel.com) app that uses [Nova](http://nova.laravel.com) via composer :
 
@@ -14,11 +14,9 @@ You can install the package in to a [Laravel](http://laravel.com) app that uses 
 composer require devtical/nova-inspire
 ```
 
-
 ## Usage
 
 Add the card to your `NovaServiceProvider.php`
-
 
 ```php
 
@@ -40,19 +38,20 @@ public function cards()
 
 ### Topics
 
-- `experience`
-- `humor`
-- `learning`
-- `life`
-- `morning`
-- `motivational`
-- `music`
-- `peace`
-- `poetry`
-- `teacher`
-- `thankful`
-- `time`
-- More (soon..)
+-   `experience`
+-   `humor`
+-   `learning`
+-   `life`
+-   `morning`
+-   `motivational`
+-   `music`
+-   `peace`
+-   `poetry`
+-   `teacher`
+-   `thankful`
+-   `time`
+-   `relax`
+-   More (soon..)
 
 ## License
 
