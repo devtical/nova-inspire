@@ -1309,4 +1309,21 @@ return [
             ],
         ],
     ],
+    'relax' => [
+        'image' => 'https://source.unsplash.com/daily?relax',
+        'quotes' => [
+            [
+                'quote' => 'It is nice finding that place where you can just go and relax.',
+                'author' => 'Moises Arias',
+            ],
+            [
+                'quote' => 'Relax! Life is beautiful!',
+                'author' => 'David L. Wolper',
+            ],
+            [
+                'quote' => 'Your mind will answer most questions if you learn to relax and wait for the answer.',
+                'author' => 'William S. Burroughs',
+            ]
+        ]
+    ]
 ];
