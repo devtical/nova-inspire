@@ -1309,4 +1309,125 @@ return [
             ],
         ],
     ],
+    'relax' => [
+        'image' => 'https://source.unsplash.com/daily?relax',
+        'quotes' => [
+            [
+                'quote' => 'It is nice finding that place where you can just go and relax.',
+                'author' => 'Moises Arias',
+            ],
+            [
+                'quote' => 'Relax! Life is beautiful!',
+                'author' => 'David L. Wolper',
+            ],
+            [
+                'quote' => 'Your mind will answer most questions if you learn to relax and wait for the answer.',
+                'author' => 'William S. Burroughs',
+            ],
+            [
+                'quote' => 'If you do what you love, it is the best way to relax.',
+                'author' => 'Christian Louboutin',
+            ],
+            [
+                'quote' => 'The time to relax is when you dont have time for it.',
+                'author' => 'Sydney J. Harris',
+            ],
+            [
+                'quote' => 'Dont make things too complicated. Try to relax, enjoy every moment, get used to everything.',
+                'author' => 'Angelique Kerber',
+            ],
+            [
+                'quote' => 'To have faith is to trust yourself to the water. When you swim you dont grab hold of the water, because if you do you will sink and drown. Instead you relax, and float.',
+                'author' => 'Alan Watts',
+            ],
+            [
+                'quote' => 'You just have to take a deep breath, relax and let the game come to you.',
+                'author' => 'A. J. Green',
+            ],
+            [
+                'quote' => 'We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves. And well also have a lot more joy in living.',
+                'author' => 'Thich Nhat Hanh',
+            ],
+            [
+                'quote' => 'A holiday is an opportunity to journey within. It is also a chance to chill, to relax. It is when I switch on my rest mode.',
+                'author' => 'Prabhas',
+            ],
+            [
+                'quote' => 'Its good to reflect on life and take a step back and sit and relax and do something else.',
+                'author' => 'Floor Jansen',
+            ],
+            [
+                'quote' => 'I have gotten better at saying to myself, Relax and just take this moment in. Appreciate it for what it is.',
+                'author' => 'Chris Carmack',
+            ],
+            [
+                'quote' => 'Its not like after winning an award, your job is done and you can relax. You still have to work hard.',
+                'author' => 'Diljit Dosanjh',
+            ],
+            [
+                'quote' => 'Music - its motivational and just makes you relax.',
+                'author' => 'Taika Waititi',
+            ],
+            [
+                'quote' => 'Gardening is how I relax. Its another form of creating and playing with colors.',
+                'author' => 'Oscar de la Renta ',
+            ],
+            [
+                'quote' => 'I dont have anything to prove anymore. I can relax.',
+                'author' => 'Paloma Picasso',
+            ],
+            [
+                'quote' => 'Art raises its head where creeds relax.',
+                'author' => 'Friedrich Nietzsche ',
+            ],
+            [
+                'quote' => 'I grind and I graft, but I will make sure that I get that time off here and there to unwind and relax and have a life.',
+                'author' => 'Tulisa',
+            ],
+            [
+                'quote' => 'I can relax with bums because I am a bum. I dont like laws, morals, religions, rules. I dont like to be shaped by society.',
+                'author' => 'Charles Bukowski',
+            ],
+            [
+                'quote' => 'Yeah, I paint in my spare time, just to relax myself and wind down a bit.',
+                'author' => 'Tyson Chandler',
+            ],
+            [
+                'quote' => 'Sometimes I wish that I could go into a time machine right now and just look at my self and say, Calm down. Things are gonna be fine. Things are gonna be all great. Just relax.',
+                'author' => 'Tristan Wilds',
+            ],
+            [
+                'quote' => 'Women and cats will do as they please, and men and dogs should relax and get used to the idea.',
+                'author' => 'Robert A. Heinlein',
+            ],
+            [
+                'quote' => 'I like to have quiet evenings and relax.',
+                'author' => 'Gareth Gates',
+            ],
+            [
+                'quote' => 'We need time to defuse, to contemplate. Just as in sleep our brains relax and give us dreams, so at some time in the day we need to disconnect, reconnect, and look around us.',
+                'author' => 'Laurie Colwin',
+            ],
+            [
+                'quote' => 'I have so much chaos in my life, its become normal. You become used to it. You have to just relax, calm down, take a deep breath and try to see how you can make things work rather than complain about how theyre wrong.',
+                'author' => 'Tom Welling',
+            ],
+            [
+                'quote' => 'People choose to struggle when people dont want to relax. Sometimes it is not on your side. Relax; calm down. No matter how hard the waves are, you will float on the ocean.',
+                'author' => 'Kubra Sait',
+            ],
+            [
+                'quote' => 'The main thing to do is relax and let your talent do the work.',
+                'author' => 'Charles Barkley',
+            ],
+            [
+                'quote' => 'If you want to relax, watch the clouds pass by if youre laying on the grass, or sit in front of the creek, just doing nothing and having those still moments is what really rejuvenates the body.',
+                'author' => 'Miranda Kerr',
+            ],
+            [
+                'quote' => 'Sometimes, there is not a lot of pressure, so you can relax.',
+                'author' => 'Cody Bellinger',
+            ],
+        ]
+    ]
 ];
