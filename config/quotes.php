@@ -1429,5 +1429,150 @@ return [
                 'author' => 'Cody Bellinger',
             ],
         ]
+    ],
+    'love' => [
+        'image' => 'https://source.unsplash.com/daily?love',
+        'quotes' => [
+            [
+                'quote' => 'As he read, I fell in love the way you fall asleep: slowly, and then all at once.',
+                'author' => 'John Green',
+            ],
+            [
+                'quote' => 'Loved you yesterday, love you still, always have, always will.',
+                'author' => 'Elaine Davis',
+            ],
+            [
+                'quote' => 'I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.',
+                'author' => 'Angelita Lim',
+            ],
+            [
+                'quote' => 'I love you not only for what you are, but for what I am when I am with you. I love you not only for what you have made of yourself, but for what you are making of me. I love you for the part of me that you bring out.',
+                'author' => 'Elizabeth Barrett Browning',
+            ],
+            [
+                'quote' => 'If I know what love is, it is because of you.',
+                'author' => 'Hermann Hesse',
+            ],
+            [
+                'quote' => 'I fell in love with her courage, her sincerity, and her flaming self respect. And it’s these things I’d believe in, even if the whole world indulged in wild suspicions that she wasn’t all she should be. I love her and it is the beginning of everything.',
+                'author' => 'F.Scott Fitzgerald',
+            ],
+            [
+                'quote' => 'I swear I couldn’t love you more than I do right now, and yet I know I will tomorrow.',
+                'author' => 'Leo Christopher',
+            ],
+            [
+                'quote' => 'If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.',
+                'author' => 'A. A. Milne',
+            ],
+            [
+                'quote' => 'A man is already halfway in love with any woman who listens to him.',
+                'author' => 'Brendan Francis',
+            ],
+            [
+                'quote' => 'I love you as certain dark things are to be loved, in secret, between the shadow and the soul.',
+                'author' => 'Pablo Neruda',
+            ],
+            [
+                'quote' => 'Women are meant to be loved, not to be understood.',
+                'author' => 'Oscar Wilde',
+            ],
+            [
+                'quote' => 'There is never a time or place for true love. It happens accidentally, in a heartbeat, in a single flashing, throbbing moment.',
+                'author' => 'Sarah Dessen',
+            ],
+            [
+                'quote' => 'Love is that condition in which the happiness of another person is essential to your own.',
+                'author' => 'Robert A. Heinlein',
+            ],
+            [
+                'quote' => 'Love never dies a natural death. It dies because we don’t know how to replenish its source. It dies of blindness and errors and betrayals. It dies of illness and wounds; it dies of weariness, of witherings, of tarnishings.',
+                'author' => 'Anais Nin',
+            ],
+            [
+                'quote' => 'He is not a lover who does not love forever.',
+                'author' => 'Euripides',
+            ],
+            [
+                'quote' => 'To love is to burn, to be on fire.',
+                'author' => 'Jane Austen',
+            ],
+            [
+                'quote' => 'Love does not begin and end the way we seem to think it does. Love is a battle, love is a war; love is a growing up.',
+                'author' => 'James Baldwin', 
+            ],
+            [
+                'quote' => 'In the end we discover that to love and let go can be the same thing.',
+                'author' => 'Jack Kornfield',
+            ],
+            [
+                'quote' => 'Pleasure of love lasts but a moment. Pain of love lasts a lifetime.',
+                'author' => 'Bette Davis',
+            ],
+            [
+                'quote' => 'To love at all is to be vulnerable. Love anything and your heart will be wrung and possibly broken. If you want to make sure of keeping it intact you must give it to no one, not even an animal. Wrap it carefully round with hobbies and little luxuries; avoid all entanglements. Lock it up safe in the casket or coffin of your selfishness. But in that casket, safe, dark, motionless, airless, it will change. It will not be broken; it will become unbreakable, impenetrable, irredeemable. To love is to be vulnerable.',
+                'author' => 'C.S. Lewis',
+            ],
+            [
+                'quote' => 'Love is an untamed force. When we try to control it, it destroys us. When we try to imprison it, it enslaves us. When we try to understand it, it leaves us feeling lost and confused.',
+                'author' => 'Paulo Coelho',
+            ],
+            [
+                'quote' => 'Love is so short, forgetting is so long.',
+                'author' => 'Pablo Neruda',
+            ],
+            [
+                'quote' => 'Love is a thing that is full of cares and fears.',
+                'author' => 'Ovid',
+            ],
+            [
+                'quote' => 'Love is not love until love’s vulnerable.',
+                'author' => 'Theodore Roethke',
+            ],
+            [
+                'quote' => 'You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.',
+                'author' => 'Dr. Seuss',
+            ],
+            [
+                'quote' => 'I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving but this, in which there is no I or you, so intimate that your hand upon my chest is my hand, so intimate that when I fall asleep your eyes close.',
+                'author' => 'Pablo Neruda',
+            ],
+            [
+                'quote' => 'Love is like the wind, you can’t see it but you can feel it.',
+                'author' => 'Nicholas Sparks',
+            ],
+            [
+                'quote' => 'Love is the magician that pulls man out of his own hat.',
+                'author' => 'Ben Hecht',
+            ],
+            [
+                'quote' => 'The best love is the kind that awakens the soul; that makes us reach for more, that plants the fire in our hearts and brings peace to our minds. That’s what I hope to give you forever.',
+                'author' => 'Noah from The Notebook',
+            ],
+            [
+                'quote' => 'I would rather spend one lifetime with you, than face all the ages of this world alone.',
+                'author' => 'J.R.R. Tolkien',
+            ],
+            [
+                'quote' => 'To be your friend was all I ever wanted; to be your lover was all I ever dreamed.',
+                'author' => 'Valerie Lombardo',
+            ],
+            [
+                'quote' => 'My wish is that you may be loved to the point of madness.',
+                'author' => 'André Breton',
+            ],
+            [
+                'quote' => 'A purpose of human life, no matter who is controlling it, is to love whoever is around to be loved.',
+                'author' => 'Kurt Vonnegut',
+            ],
+            [
+                'quote' => 'Romance is the glamour which turns the dust of everyday life into a golden haze.',
+                'author' => 'Elinor Glyn',
+            ],
+            [
+                'quote' => 'Love is always patient and kind. It is never jealous. Love is never boastful or conceited. It is never rude or selfish. It does not take offense and is not resentful. Love takes no pleasure in other people’s sins, but delights in the truth. It is always ready to excuse, to trust, to hope, and to endure whatever comes.',
+                'author' => 'Corinthians 13:4-7',
+            ]
+        ]
     ]
 ];
