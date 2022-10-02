@@ -1454,11 +1454,11 @@ return [
                 'author' => 'Hermann Hesse',
             ],
             [
-                'quote' => 'I fell in love with her courage, her sincerity, and her flaming self respect. And it’s these things I’d believe in, even if the whole world indulged in wild suspicions that she wasn’t all she should be. I love her and it is the beginning of everything.',
+                'quote' => 'I fell in love with her courage, her sincerity, and her flaming self respect. And it\'s these things I\'d believe in, even if the whole world indulged in wild suspicions that she wasn\'   t all she should be. I love her and it is the beginning of everything.',
                 'author' => 'F.Scott Fitzgerald',
             ],
             [
-                'quote' => 'I swear I couldn’t love you more than I do right now, and yet I know I will tomorrow.',
+                'quote' => 'I swear I couldn\'t love you more than I do right now, and yet I know I will tomorrow.',
                 'author' => 'Leo Christopher',
             ],
             [
@@ -1486,7 +1486,7 @@ return [
                 'author' => 'Robert A. Heinlein',
             ],
             [
-                'quote' => 'Love never dies a natural death. It dies because we don’t know how to replenish its source. It dies of blindness and errors and betrayals. It dies of illness and wounds; it dies of weariness, of witherings, of tarnishings.',
+                'quote' => 'Love never dies a natural death. It dies because we don\'t know how to replenish its source. It dies of blindness and errors and betrayals. It dies of illness and wounds; it dies of weariness, of witherings, of tarnishings.',
                 'author' => 'Anais Nin',
             ],
             [
@@ -1526,11 +1526,11 @@ return [
                 'author' => 'Ovid',
             ],
             [
-                'quote' => 'Love is not love until love’s vulnerable.',
+                'quote' => 'Love is not love until love\'s vulnerable.',
                 'author' => 'Theodore Roethke',
             ],
             [
-                'quote' => 'You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.',
+                'quote' => 'You know you’re in love when you can\'t fall asleep because reality is finally better than your dreams.',
                 'author' => 'Dr. Seuss',
             ],
             [
@@ -1538,7 +1538,7 @@ return [
                 'author' => 'Pablo Neruda',
             ],
             [
-                'quote' => 'Love is like the wind, you can’t see it but you can feel it.',
+                'quote' => 'Love is like the wind, you can\'t see it but you can feel it.',
                 'author' => 'Nicholas Sparks',
             ],
             [
@@ -1546,7 +1546,7 @@ return [
                 'author' => 'Ben Hecht',
             ],
             [
-                'quote' => 'The best love is the kind that awakens the soul; that makes us reach for more, that plants the fire in our hearts and brings peace to our minds. That’s what I hope to give you forever.',
+                'quote' => 'The best love is the kind that awakens the soul; that makes us reach for more, that plants the fire in our hearts and brings peace to our minds. That\'s what I hope to give you forever.',
                 'author' => 'Noah from The Notebook',
             ],
             [
@@ -1572,7 +1572,7 @@ return [
             [
                 'quote' => 'Love is always patient and kind. It is never jealous. Love is never boastful or conceited. It is never rude or selfish. It does not take offense and is not resentful. Love takes no pleasure in other people’s sins, but delights in the truth. It is always ready to excuse, to trust, to hope, and to endure whatever comes.',
                 'author' => 'Corinthians 13:4-7',
-            ]
+            ],
         ]
     ]
 ];
