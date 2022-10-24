@@ -52,6 +52,7 @@ public function cards()
 -   `time`
 -   `relax`
 -   `love`
+-   `knowledge`
 -   More (soon..)
 
 ## License

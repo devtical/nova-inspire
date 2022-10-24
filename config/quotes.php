@@ -1574,5 +1574,50 @@ return [
                 'author' => 'Corinthians 13:4-7',
             ],
         ]
+    ],
+    'knowledge'         => [
+        'image'  => 'https://source.unsplash.com/daily?knowledge',
+        'quotes' => [
+            [
+                'quote'  => 'A friend is someone who knows all about you and still loves you.',
+                'author' => 'Elbert Hubbard',
+            ],
+            [
+                'quote'  => 'The only true wisdom is in knowing you know nothing.',
+                'author' => 'Socrates',
+            ],
+            [
+                'quote'  => 'Any fool can know. The point is to understand.',
+                'author' => 'Albert Einstein',
+            ],
+            [
+                'quote'  => 'I was gratified to be able to answer promptly, and I did. I said I didn\'t know.',
+                'author' => 'Mark Twain',
+            ],
+            [
+                'quote'  => 'I did then what I knew how to do. Now that I know better, I do better.',
+                'author' => 'Maya Angelou',
+            ],
+            [
+                'quote'  => 'No thief, however skillful, can rob one of knowledge, and that is why knowledge is the best and safest treasure to acquire.',
+                'author' => 'L. Frank Baum',
+            ],
+            [
+                'quote'  => 'The man of knowledge must be able not only to love his enemies but also to hate his friends.',
+                'author' => 'Friedrich Nietzsche',
+            ],
+            [
+                'quote'  => 'Reading furnishes the mind only with materials of knowledge; it is thinking that makes what we read ours.',
+                'author' => 'John Locke',
+            ],
+            [
+                'quote'  => 'I cannot teach anybody anything. I can only make them think.',
+                'author' => 'Socrates',
+            ],
+            [
+                'quote'  => 'Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won\'t come in.',
+                'author' => 'Isaac Asimov',
+            ],
+        ]
     ]
 ];
